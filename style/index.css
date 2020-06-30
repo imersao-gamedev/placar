@@ -15,6 +15,7 @@ body {
 .header {
   display: flex;
   padding: 1rem;
+  margin-bottom: 3rem;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(85,93,100,.05);
@@ -41,6 +42,7 @@ body {
   line-height: 1em;
   letter-spacing: -2px;
   margin: 2rem;
+  margin-bottom: 5rem;
   text-align: center;
   color: var(--dark-gray);
   text-transform: uppercase;
@@ -82,12 +84,7 @@ body {
   width: 180px;
   height: 180px;
 }
-@media(max-width: 768px) {
-  .podio {
-    width: 90vw;
-    height: 90vw;
-  }
-}
+
 .classificados {
   display: flex;
   justify-content: center;
@@ -96,8 +93,38 @@ body {
   flex-wrap: wrap;
 }
 
+@media(max-width: 768px) {
+  .podio {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .classificados {
+    margin: 0;
+  }
+}
+
 .vencedor-mais-novo {
   background-color: var(--dark-gray);
+  padding: 2rem;
+}
+
+.vencedor-mais-novo .titulo {
+  color: var(--white);
+}
+
+.vencedor.mais-novo {
+  display: block;
+  margin: 1rem auto;
+  border-top-color: var(--white);
+  border-left-color: var(--white);
+}
+
+.mencoes-honrosas {
+  border-bottom: 10px solid var(--blue);
+}
+.mencoes-honrosas-container {
+  margin-bottom: 3rem;
 }
 
 .rodape {

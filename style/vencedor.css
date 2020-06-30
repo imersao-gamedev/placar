@@ -1,5 +1,6 @@
 .vencedor {
   position: relative;
+  display: inline-block;
   border: 10px solid var(--dark-gray);
   border-bottom: 10px solid var(--blue);
   border-right: 10px solid var(--blue);
@@ -35,7 +36,6 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: -1;
   transition: transform .25s;
 }
 
