@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Nome",
+    "idade": 30,
+    "imagem": "url da imagem do jogo",
+    "url": "url do jogo"
+  },
+  {
+    "nome": "Nome2",
+    "idade": 20,
+    "imagem": "url da imagem do jogo",
+    "url": "url do jogo"
+  }
+]

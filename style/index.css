@@ -1,0 +1,112 @@
+:root {
+  --blue: #807FCB;
+  --black: #000;
+  --gray: #525f6b;
+  --dark-gray: #3c3c4a;
+  --white: #f5f5f5;
+
+  --bg-color: var(--dark-gray);
+}
+
+body {
+  background-color: var(--white);
+}
+
+.header {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(85,93,100,.05);
+}
+
+.logo {
+  max-height: 50px;
+  max-width: 85px;
+}
+
+@media(max-width: 768px) {
+  .logo-hipster-container {
+    display: none;
+  }
+
+}
+
+.vencedores {
+  border-bottom: 10px solid var(--blue);
+}
+
+.titulo {
+  font-size: 2.25rem;
+  line-height: 1em;
+  letter-spacing: -2px;
+  margin: 2rem;
+  text-align: center;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.titulo-imagem {
+  width: 200px;
+}
+
+
+.podio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 768px) {
+  .podio-container {
+    flex-direction: column;
+  }
+}
+
+.podio {
+  margin: 1rem;
+}
+
+.podio-1 {
+  width: 220px;
+  height: 220px;
+}
+
+.podio-2 {
+  width: 200px;
+  height: 200px;
+}
+
+.podio-3 {
+  width: 180px;
+  height: 180px;
+}
+@media(max-width: 768px) {
+  .podio {
+    width: 90vw;
+    height: 90vw;
+  }
+}
+.classificados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  flex-wrap: wrap;
+}
+
+.vencedor-mais-novo {
+  background-color: var(--dark-gray);
+}
+
+.rodape {
+  background-color: var(--dark-gray);
+  text-align: center;
+  color: var(--white);
+  padding: 1rem;
+}
+
+.rodape a {
+  text-decoration: underline;
+}
