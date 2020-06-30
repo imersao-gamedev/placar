@@ -124,6 +124,7 @@ body {
   border-bottom: 10px solid var(--blue);
 }
 .mencoes-honrosas-container {
+  margin: 0 auto;
   margin-bottom: 3rem;
 }
 
