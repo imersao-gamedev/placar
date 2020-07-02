@@ -1,50 +1,104 @@
-[
-  {
-    "info": {
+{
+  "vencedores": [
+    {
+      "nome": "Walisson Pereira",
+      "idade": 38,
+      "nomeDoJogo": "Joãozinho vai para a escola",
+      "url": "https://editor.p5js.org/walissonfp/present/ftjYo-vkN",
+      "colocacao": 1
+    },
+    {
+      "nome": "Ami Onodera",
+      "idade": 30,
+      "nomeDoJogo": "The Adventures of Ami",
+      "url": "https://ami-onodera.github.io/runnerwitch",
+      "colocacao": 2
+    },
+    {
+      "nome": "Mario Diniz",
+      "idade": 30,
+      "nomeDoJogo": "Azure Star",
+      "url": "https://editor.p5js.org/mariodiniz/full/j-hCSocA7",
+      "colocacao": 3
+    },
+    {
+      "nome": "Cledson Lopes",
+      "idade": 40,
+      "nomeDoJogo": "Racer",
+      "url": "https://editor.p5js.org/cledman/full/IZVZsrWUY",
+      "colocacao": 3,
+      "lugarDuplicado": true
+    },
+    {
+      "nome": "Douglas Mateus da Silva",
+      "idade": 29,
+      "nomeDoJogo": "As Aventuras de Hewie",
+      "url": "https://editor.p5js.org/douglasm/present/e-Dm4v4YP",
+      "colocacao": 4
+    },
+    {
+      "nome": "Rafael Fiuza Vieira",
+      "idade": 28,
+      "nomeDoJogo": "Hero Dash",
+      "url": "https://v1perfx.github.io/imersaoGameDev/",
+      "colocacao": 5
+    },
+    {
+      "nome": "Welbert da Silva Freitas Filho",
+      "idade": 16,
+      "nomeDoJogo": "As Aventuras de Cidinei",
+      "url": "https://editor.p5js.org/welbertfilho9/full/5NonsyZJD",
+      "colocacao": 6
+    },
+    {
+      "nome": "Gustavo Teixeira Carvalho",
+      "idade": 24,
+      "nomeDoJogo": "Power Rangers",
+      "url": "https://editor.p5js.org/gteixeirac/full/7qjYENi60",
+      "colocacao": 7
+    },
+    {
+      "nome": "Rodrigo Castro",
+      "idade": 29,
+      "nomeDoJogo": "As Aventuras de Bruna",
+      "url": "https://castrors.github.io/imersao_game_dev/",
+      "colocacao": 8
+    },
+    {
+      "nome": "Rodrigo Fonseca Borges",
+      "idade": 39,
+      "nomeDoJogo": "As Aventuras da Hipsta",
+      "url": "https://editor.p5js.org/ThunderBorges/full/7X-hwIhne",
+      "colocacao": 9
+    },
+    {
+      "nome": "Bruno Garcia",
+      "idade": 38,
+      "nomeDoJogo": "Pandemya",
+      "url": "https://editor.p5js.org/hellsand/full/5HWqMagFY",
+      "colocacao": 10
+    }
+  ],
+  "maisNovos": [
+    {
       "nome": "Enzo de Sousa Aráujo Andrade",
       "idade": 11,
-      "jogo": "Nome do Jogo1",
+      "nomeDoJogo": "As Aventuras de Hipsta",
       "url": "https://editor.p5js.org/EnzoAndrade/full/AilNscSIB"
     },
-    "categoria": "vencedores",
-    "colocacao": 1
-  },
-  {
-    "info": {
-      "nome": "Enzo de Sousa Aráujo Andrade",
-      "idade": 11,
-      "jogo": "Nome do Jogo2",
-      "url": "https://editor.p5js.org/EnzoAndrade/full/AilNscSIB"
-    },
-    "categoria": "vencedores",
-    "colocacao": 2
-  },
-  {
-    "info": {
-      "nome": "Enzo de Sousa Aráujo Andrade",
-      "idade": 11,
-      "jogo": "Nome do Jogo3",
-      "url": "https://editor.p5js.org/EnzoAndrade/full/AilNscSIB"
-    },
-    "categoria": "vencedores",
-    "colocacao": 3
-  },
-  {
-    "info": {
-      "nome": "Enzo de Sousa Aráujo Andrade",
-      "idade": 11,
-      "jogo": "Nome do Jogo",
-      "url": "https://editor.p5js.org/EnzoAndrade/full/AilNscSIB"
-    },
-    "categoria": "mais novo"
-  },
-  {
-    "info": {
+    {
       "nome": "Pietra Mainini",
       "idade": 11,
-      "imagem": "url da imagem do jogo",
+      "nomeDoJogo": "As Aventuras de Hipsta",
       "url": "https://editor.p5js.org/PietraMainini/present/__M-DZIQh"
-    },
-    "categoria": "mais novo"
-  }
-]
+    }
+  ],
+  "mencoes honrosas": [
+    {
+      "nome": "Pietra Mainini",
+      "idade": 11,
+      "imagem": "url da imagem do nomeDoJogo",
+      "url": "https://editor.p5js.org/PietraMainini/present/__M-DZIQh"
+    }
+  ]
+}

@@ -10,6 +10,23 @@
   transition: all .25s;
   width: 180px;
   height: 180px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 769px) {
+  /* .vencedor-1 {
+    order: 2;
+  }
+  .vencedor-2 {
+    order: 3;
+  }
+  .vencedor-3-1 {
+    order: 1;
+  }
+  .vencedor-3-2 {
+    order: 4;
+  } */
 }
 
 @media(max-width: 768px) {
