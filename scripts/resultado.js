@@ -3,9 +3,14 @@
   
   const jogosVencedores = document.querySelectorAll('[data-vencedor]')
   const jogosMaisNovos = document.querySelectorAll('[data-mais-novo]')
-  
+  const jogosHomenagens = document.querySelectorAll('[data-homenagem]')
+  const mencoesContainer = document.querySelector('[data-mencoes]')
+  const mencoes = shuffleArray(resultados.mencoesHonrosas)
+
   carregaJogos('vencedores', jogosVencedores, resultados)
   carregaJogos('maisNovos', jogosMaisNovos, resultados)
+  carregaJogos('homenagens', jogosHomenagens, resultados)
+  carregaMencoes(mencoesContainer, mencoes)
 })()
 
 const carregaJogos = (categoria, elementos, resultados) => {
@@ -13,6 +18,15 @@ const carregaJogos = (categoria, elementos, resultados) => {
     const dadosJogo = resultados[categoria][indice]
     jogo.appendChild(Jogo(dadosJogo, categoria, indice))
   })
+}
+
+const carregaMencoes = (container, mencoes) => {
+  mencoes.forEach(mencao => {
+    const Mencao = document.createElement('div')
+    Mencao.appendChild(Jogo(mencao, 'mencoesHonrosas', mencao.imagem))
+    container.appendChild(Mencao)
+  })
+
 }
 
 const Jogo = ({
@@ -60,7 +74,14 @@ const Jogo = ({
   return jogo
 }
 
-const toggleModal = (codigoModal) => {
-  const modal = document.querySelector(`[data-modal="${codigoModal}"]`)
-  modal.classList.add('modal-show')
+const shuffleArray = (array) => {
+  const novoArray = array.slice()
+  for (let i = novoArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * i)
+    const temp = novoArray[i]
+    novoArray[i] = novoArray[j]
+    novoArray[j] = temp
+  }
+
+  return novoArray
 }

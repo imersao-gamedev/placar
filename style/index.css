@@ -47,6 +47,7 @@ body {
   color: var(--dark-gray);
   text-transform: uppercase;
   font-family: 'Audiowide', sans-serif;
+  overflow-wrap: break-word;
 }
 
 .titulo-imagem {
@@ -118,6 +119,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media(max-width: 768px) {
+.vencedor-mais-novo .container {
+  flex-direction: column;
+}
+
+}
 .vencedor-mais-novo .vencedor {
   display: block;
   margin: 1rem 3rem;
@@ -131,10 +139,10 @@ body {
 
 }
 .mencoes-honrosas-container {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 3rem;
 }
 
