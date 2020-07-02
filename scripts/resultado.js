@@ -11,6 +11,7 @@
   carregaJogos('maisNovos', jogosMaisNovos, resultados)
   carregaJogos('homenagens', jogosHomenagens, resultados)
   carregaMencoes(mencoesContainer, mencoes)
+
 })()
 
 const carregaJogos = (categoria, elementos, resultados) => {
@@ -64,8 +65,11 @@ const Jogo = ({
 
     <div class="vencedor-conteudo">
       <h2 class="jogo-titulo">${nomeDoJogo}</h2>
-      <p>${nome}</p>
-      <p>${idade} anos</p>
+
+     <div class="conteudo">
+       <p>${nome}</p>
+       <p>${idade} anos</p>
+     </div>
     </div>
     
     ${colocacaoHTML}

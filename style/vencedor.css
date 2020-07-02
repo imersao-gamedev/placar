@@ -8,25 +8,10 @@
   padding: 1rem;
   border-radius: 1rem;
   transition: all .25s;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   cursor: pointer;
   outline: none;
-}
-
-@media (min-width: 769px) {
-  /* .vencedor-1 {
-    order: 2;
-  }
-  .vencedor-2 {
-    order: 3;
-  }
-  .vencedor-3-1 {
-    order: 1;
-  }
-  .vencedor-3-2 {
-    order: 4;
-  } */
 }
 
 @media(max-width: 768px) {
@@ -49,7 +34,7 @@
   height: 100%;
   left: 0;
   object-fit: cover;
-  object-position: 0 0;
+  object-position: center;
   position: absolute;
   top: 0;
   width: 100%;
@@ -62,24 +47,33 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 30%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   color: var(--white);
   text-shadow: 0 0 2px var(--blue);
-  background-color: rgba(0,0,0,.2);
-  transition: background-color .25s;
+  background-color: var(--blue);
+  transition: background-color .25s, height .25s;
+}
+.vencedor .jogo-titulo {
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 1rem;
+  font-size: 1.25rem;
 }
 
-.vencedor:hover .vencedor-imagem {
-  transform: scale(1.1);
+.vencedor .conteudo {
+  display: none;
 }
 
+.vencedor:hover .conteudo {
+  display: block;
+}
 .vencedor:hover .vencedor-conteudo {
-  background-color: rgba(0,0,0,0);
-}
+  height: 100%;
+} 
 
 .colocacao {
   width: 50px;
